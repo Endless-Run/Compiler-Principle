@@ -1,0 +1,45 @@
+int a,b,c;
+float m,n;
+char a;   //字符
+int a[10];
+int b[10][20][30];
+struct stuff{  
+        char job[20];  
+        int age;  
+        float height;  
+};  
+struct stuff{  
+        char job[20];  
+        int age;  
+        float height;  
+}Huqinwei;  
+struct stuff yourname;   
+int fibo(int a){
+        if (a==1 || a==2) return 1;
+        return fibo(a-1)+fibo(a-2);
+}
+int main(){
+        int m,n,i;
+        i++;
+        i--;
+        ++i;
+        --i;
+        /*****注释 
+        *****/
+        /*注释 
+        */ 
+        m=read(); 
+        a+=b;
+        i=1;
+        a='c';
+        while(i<=m){
+                n=fibo(i);
+                write(n);
+                i=i+1;
+        }
+        for(i=0;i<20;i++){
+                n+=n+1;
+        }
+        return 1;
+} 
+

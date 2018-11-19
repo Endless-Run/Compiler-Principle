@@ -1,0 +1,608 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AND	parser.tab.c	/^    AND = 284,$/;"	e	enum:yytokentype	file:
+AND	parser.tab.h	/^    AND = 284,$/;"	e	enum:yytokentype
+ARG	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+ARGS	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+ARRAY	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+ARRAY_VAR_DEF	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+ASSIGNOP	parser.tab.c	/^    ASSIGNOP = 283,$/;"	e	enum:yytokentype	file:
+ASSIGNOP	parser.tab.h	/^    ASSIGNOP = 283,$/;"	e	enum:yytokentype
+Args	parser.y	/^Args:    Exp COMMA Args    {$$ = mknode(ARGS,$1,$3,NULL,yylineno);}$/;"	l
+ArrDec	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+ArrDef	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+ArrRef	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+BEGIN	lex.yy.c	125;"	d	file:
+CALL	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+CHAR	parser.tab.c	/^    CHAR = 263,$/;"	e	enum:yytokentype	file:
+CHAR	parser.tab.h	/^    CHAR = 263,$/;"	e	enum:yytokentype
+COMMA	parser.tab.c	/^    COMMA = 271,$/;"	e	enum:yytokentype	file:
+COMMA	parser.tab.h	/^    COMMA = 271,$/;"	e	enum:yytokentype
+COMPADD	parser.tab.c	/^    COMPADD = 274,$/;"	e	enum:yytokentype	file:
+COMPADD	parser.tab.h	/^    COMPADD = 274,$/;"	e	enum:yytokentype
+COMPDIV	parser.tab.c	/^    COMPDIV = 277,$/;"	e	enum:yytokentype	file:
+COMPDIV	parser.tab.h	/^    COMPDIV = 277,$/;"	e	enum:yytokentype
+COMPMUL	parser.tab.c	/^    COMPMUL = 276,$/;"	e	enum:yytokentype	file:
+COMPMUL	parser.tab.h	/^    COMPMUL = 276,$/;"	e	enum:yytokentype
+COMPSUB	parser.tab.c	/^    COMPSUB = 275,$/;"	e	enum:yytokentype	file:
+COMPSUB	parser.tab.h	/^    COMPSUB = 275,$/;"	e	enum:yytokentype
+COMP_STM	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+CompSt	parser.y	/^CompSt: LC DefList StmList RC    {$$=mknode(COMP_STM,$2,$3,NULL,yylineno);}$/;"	l
+DECRE	parser.tab.c	/^    DECRE = 273,$/;"	e	enum:yytokentype	file:
+DECRE	parser.tab.h	/^    DECRE = 273,$/;"	e	enum:yytokentype
+DEC_LIST	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+DEF_LIST	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+DIV	parser.tab.c	/^    DIV = 282,$/;"	e	enum:yytokentype	file:
+DIV	parser.tab.h	/^    DIV = 282,$/;"	e	enum:yytokentype
+DX	def.h	9;"	d
+Dec	parser.y	/^Dec:     VarDec  {$$=$1;}$/;"	l
+DecList	parser.y	/^DecList: Dec  {$$=mknode(DEC_LIST,$1,NULL,NULL,yylineno);}$/;"	l
+Def	parser.y	/^Def:    Specifier DecList SEMI {$$=mknode(VAR_DEF,$1,$2,NULL,yylineno);}$/;"	l
+DefList	parser.y	/^DefList: {$$=NULL; }$/;"	l
+ECHO	lex.yy.c	665;"	d	file:
+ELSE	parser.tab.c	/^    ELSE = 288,$/;"	e	enum:yytokentype	file:
+ELSE	parser.tab.h	/^    ELSE = 288,$/;"	e	enum:yytokentype
+EOB_ACT_CONTINUE_SCAN	lex.yy.c	173;"	d	file:
+EOB_ACT_END_OF_FILE	lex.yy.c	174;"	d	file:
+EOB_ACT_LAST_MATCH	lex.yy.c	175;"	d	file:
+EQ	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+EXIT_SUCCESS	parser.tab.c	327;"	d	file:
+EXIT_SUCCESS	parser.tab.c	355;"	d	file:
+EXP_STMT	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+EXT_DEC_LIST	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+EXT_DEF_LIST	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+EXT_VAR_DEF	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+Efalse	def.h	/^    char Etrue[15],Efalse[15];      \/\/对布尔表达式的翻译时，真假转移目标的标号$/;"	m	struct:node
+Etrue	def.h	/^    char Etrue[15],Efalse[15];      \/\/对布尔表达式的翻译时，真假转移目标的标号$/;"	m	struct:node
+Exp	parser.y	/^Exp:    Exp ASSIGNOP Exp {$$=mknode(ASSIGNOP,$1,$3,NULL,yylineno);strcpy($$->type_id,"ASSIGNOP");}\/\/$$结点type_id空置未用，正好存放运算符$/;"	l
+Exp	semantics.c	/^void Exp(struct node *T)$/;"	f
+ExpS	parser.y	/^ExpS:   Exp SEMI Exp SEMI Exp {$$=mknode(ForExp,$1,$3,$5,yylineno);}$/;"	l
+ExtDecList	parser.y	/^ExtDecList:  VarDec      {$$ = mknode(ArrDef, $1, NULL, NULL, yylineno);}       \/*每一个EXT_DECLIST的结点，其第一棵子树对应一个变量名(ID类型的结点),第二棵子树对应剩下的外部变量名*\/$/;"	l
+ExtDef	parser.y	/^ExtDef:   Specifier ExtDecList SEMI   {$$=mknode(EXT_VAR_DEF,$1,$2,NULL,yylineno);}   \/\/该结点对应一个外部变量声明$/;"	l
+ExtDefList	parser.y	/^ExtDefList: {$$=NULL;}$/;"	l
+FLEXINT_H	lex.yy.c	29;"	d	file:
+FLEX_BETA	lex.yy.c	13;"	d	file:
+FLEX_SCANNER	lex.yy.c	8;"	d	file:
+FLOAT	parser.tab.c	/^    FLOAT = 262,$/;"	e	enum:yytokentype	file:
+FLOAT	parser.tab.h	/^    FLOAT = 262,$/;"	e	enum:yytokentype
+FOR	parser.tab.c	/^    FOR = 291,$/;"	e	enum:yytokentype	file:
+FOR	parser.tab.h	/^    FOR = 291,$/;"	e	enum:yytokentype
+FUNCTION	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+FUNC_CALL	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+FUNC_DEC	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+FUNC_DEF	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+ForExp	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+FuncDec	parser.y	/^FuncDec: ID LP VarList RP   {$$=mknode(FUNC_DEC,$3,NULL,NULL,yylineno);strcpy($$->type_id,$1);}\/\/函数名存放在$$->type_id$/;"	l
+GOTO	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+ID	parser.tab.c	/^    ID = 259,$/;"	e	enum:yytokentype	file:
+ID	parser.tab.h	/^    ID = 259,$/;"	e	enum:yytokentype
+IDS	parser.y	/^IDS:     VarDec {$$=$1;}$/;"	l
+IF	parser.tab.c	/^    IF = 287,$/;"	e	enum:yytokentype	file:
+IF	parser.tab.h	/^    IF = 287,$/;"	e	enum:yytokentype
+IF_THEN	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+IF_THEN_ELSE	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+INCRE	parser.tab.c	/^    INCRE = 272,$/;"	e	enum:yytokentype	file:
+INCRE	parser.tab.h	/^    INCRE = 272,$/;"	e	enum:yytokentype
+INITIAL	lex.yy.c	569;"	d	file:
+INT	parser.tab.c	/^    INT = 258,$/;"	e	enum:yytokentype	file:
+INT	parser.tab.h	/^    INT = 258,$/;"	e	enum:yytokentype
+INT16_MAX	lex.yy.c	71;"	d	file:
+INT16_MIN	lex.yy.c	62;"	d	file:
+INT32_MAX	lex.yy.c	74;"	d	file:
+INT32_MIN	lex.yy.c	65;"	d	file:
+INT8_MAX	lex.yy.c	68;"	d	file:
+INT8_MIN	lex.yy.c	59;"	d	file:
+JGE	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+JGT	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+JLE	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+JLT	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+LABEL	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+LB	parser.tab.c	/^    LB = 266,$/;"	e	enum:yytokentype	file:
+LB	parser.tab.h	/^    LB = 266,$/;"	e	enum:yytokentype
+LC	parser.tab.c	/^    LC = 268,$/;"	e	enum:yytokentype	file:
+LC	parser.tab.h	/^    LC = 268,$/;"	e	enum:yytokentype
+LEV	semantics.c	/^int LEV=0;      \/\/层号$/;"	v
+LOWER_THEN_ELSE	parser.tab.c	/^    LOWER_THEN_ELSE = 293$/;"	e	enum:yytokentype	file:
+LOWER_THEN_ELSE	parser.tab.h	/^    LOWER_THEN_ELSE = 293$/;"	e	enum:yytokentype
+LP	parser.tab.c	/^    LP = 264,$/;"	e	enum:yytokentype	file:
+LP	parser.tab.h	/^    LP = 264,$/;"	e	enum:yytokentype
+MAXLENGTH	def.h	8;"	d
+MINUS	parser.tab.c	/^    MINUS = 280,$/;"	e	enum:yytokentype	file:
+MINUS	parser.tab.h	/^    MINUS = 280,$/;"	e	enum:yytokentype
+NEQ	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+NOT	parser.tab.c	/^    NOT = 286,$/;"	e	enum:yytokentype	file:
+NOT	parser.tab.h	/^    NOT = 286,$/;"	e	enum:yytokentype
+NUM_LIST	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+OR	parser.tab.c	/^    OR = 285,$/;"	e	enum:yytokentype	file:
+OR	parser.tab.h	/^    OR = 285,$/;"	e	enum:yytokentype
+OptTag	parser.y	/^OptTag: ID {$$=mknode(ID,NULL,NULL,NULL,yylineno);strcpy($$->type_id,$1);}$/;"	l
+PARAM	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+PARAM_DEC	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+PARAM_LIST	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+PLUS	parser.tab.c	/^    PLUS = 279,$/;"	e	enum:yytokentype	file:
+PLUS	parser.tab.h	/^    PLUS = 279,$/;"	e	enum:yytokentype
+ParamDec	parser.y	/^ParamDec: Specifier VarDec         {$$=mknode(PARAM_DEC,$1,$2,NULL,yylineno);}$/;"	l
+PostDecre	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+PostIncre	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+PreDecre	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+PreIncre	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+RB	parser.tab.c	/^    RB = 267,$/;"	e	enum:yytokentype	file:
+RB	parser.tab.h	/^    RB = 267,$/;"	e	enum:yytokentype
+RC	parser.tab.c	/^    RC = 269,$/;"	e	enum:yytokentype	file:
+RC	parser.tab.h	/^    RC = 269,$/;"	e	enum:yytokentype
+REJECT	lex.yy.c	545;"	d	file:
+RELOP	parser.tab.c	/^    RELOP = 260,$/;"	e	enum:yytokentype	file:
+RELOP	parser.tab.h	/^    RELOP = 260,$/;"	e	enum:yytokentype
+RETURN	parser.tab.c	/^    RETURN = 290,$/;"	e	enum:yytokentype	file:
+RETURN	parser.tab.h	/^    RETURN = 290,$/;"	e	enum:yytokentype
+RP	parser.tab.c	/^    RP = 265,$/;"	e	enum:yytokentype	file:
+RP	parser.tab.h	/^    RP = 265,$/;"	e	enum:yytokentype
+SEMI	parser.tab.c	/^    SEMI = 270,$/;"	e	enum:yytokentype	file:
+SEMI	parser.tab.h	/^    SEMI = 270,$/;"	e	enum:yytokentype
+STAR	parser.tab.c	/^    STAR = 281,$/;"	e	enum:yytokentype	file:
+STAR	parser.tab.h	/^    STAR = 281,$/;"	e	enum:yytokentype
+STM_LIST	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+STRUCT	parser.tab.c	/^    STRUCT = 278,$/;"	e	enum:yytokentype	file:
+STRUCT	parser.tab.h	/^    STRUCT = 278,$/;"	e	enum:yytokentype
+Snext	def.h	/^    char Snext[15];               \/\/该结点对饮语句执行后的下一条语句位置标号$/;"	m	struct:node
+Specifier	parser.y	/^Specifier:  TYPE    {$$=mknode(TYPE,NULL,NULL,NULL,yylineno);strcpy($$->type_id,$1);$$->type=!strcmp($1,"int")?INT:FLOAT;}   $/;"	l
+StmList	parser.y	/^StmList: {$$=NULL; }  $/;"	l
+Stmt	parser.y	/^Stmt:   Exp SEMI    {$$=mknode(EXP_STMT,$1,NULL,NULL,yylineno);}$/;"	l
+StructDec	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+StructDef	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+StructField	def.h	/^}StructField;$/;"	t	typeref:struct:structField_
+StructSpecifier	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+StructSpecifier	parser.y	/^StructSpecifier: STRUCT OptTag LC DefList RC  {$$=mknode(StructSpecifier,$2,$4,NULL,yylineno);}$/;"	l
+TX	def.h	/^    int TX[30];$/;"	m	struct:symbol_scope_begin
+TYPE	parser.tab.c	/^    TYPE = 261,$/;"	e	enum:yytokentype	file:
+TYPE	parser.tab.h	/^    TYPE = 261,$/;"	e	enum:yytokentype
+Tag	parser.y	/^Tag: ID {$$=mknode(ID,NULL,NULL,NULL,yylineno);strcpy($$->type_id,$1);}$/;"	l
+Type	def.h	/^} Type;$/;"	t	typeref:struct:type_
+UINT16_MAX	lex.yy.c	80;"	d	file:
+UINT32_MAX	lex.yy.c	83;"	d	file:
+UINT8_MAX	lex.yy.c	77;"	d	file:
+UMINUS	parser.tab.c	/^    UMINUS = 292,$/;"	e	enum:yytokentype	file:
+UMINUS	parser.tab.h	/^    UMINUS = 292,$/;"	e	enum:yytokentype
+VAR_DEF	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	e	enum:node_kind
+VarDec	parser.y	/^VarDec:  ID          {$$=mknode(ID,NULL,NULL,NULL,yylineno);strcpy($$->type_id,$1);}$/;"	l
+VarList	parser.y	/^VarList: ParamDec  {$$=mknode(PARAM_LIST,$1,NULL,NULL,yylineno);}$/;"	l
+WHILE	parser.tab.c	/^    WHILE = 289,$/;"	e	enum:yytokentype	file:
+WHILE	parser.tab.h	/^    WHILE = 289,$/;"	e	enum:yytokentype
+YYABORT	parser.tab.c	735;"	d	file:
+YYACCEPT	parser.tab.c	734;"	d	file:
+YYBACKUP	parser.tab.c	741;"	d	file:
+YYBISON	parser.tab.c	44;"	d	file:
+YYBISON_VERSION	parser.tab.c	47;"	d	file:
+YYCASE_	parser.tab.c	1150;"	d	file:
+YYCASE_	parser.tab.c	1160;"	d	file:
+YYCOPY	parser.tab.c	421;"	d	file:
+YYCOPY	parser.tab.c	424;"	d	file:
+YYCOPY_NEEDED	parser.tab.c	396;"	d	file:
+YYDEBUG	parser.tab.c	101;"	d	file:
+YYDEBUG	parser.tab.h	37;"	d
+YYDPRINTF	parser.tab.c	798;"	d	file:
+YYDPRINTF	parser.tab.c	955;"	d	file:
+YYEMPTY	parser.tab.c	731;"	d	file:
+YYEOF	parser.tab.c	732;"	d	file:
+YYERRCODE	parser.tab.c	760;"	d	file:
+YYERROR	parser.tab.c	736;"	d	file:
+YYERROR_VERBOSE	parser.tab.c	89;"	d	file:
+YYERROR_VERBOSE	parser.tab.c	90;"	d	file:
+YYERROR_VERBOSE	parser.tab.c	92;"	d	file:
+YYFINAL	parser.tab.c	437;"	d	file:
+YYFPRINTF	parser.tab.c	795;"	d	file:
+YYFREE	parser.tab.c	365;"	d	file:
+YYINITDEPTH	parser.tab.c	964;"	d	file:
+YYLAST	parser.tab.c	439;"	d	file:
+YYLLOC_DEFAULT	parser.tab.c	768;"	d	file:
+YYLTYPE	parser.tab.c	/^struct YYLTYPE$/;"	s	file:
+YYLTYPE	parser.tab.c	/^typedef struct YYLTYPE YYLTYPE;$/;"	t	typeref:struct:YYLTYPE	file:
+YYLTYPE	parser.tab.h	/^struct YYLTYPE$/;"	s
+YYLTYPE	parser.tab.h	/^typedef struct YYLTYPE YYLTYPE;$/;"	t	typeref:struct:YYLTYPE
+YYLTYPE_IS_DECLARED	parser.tab.c	182;"	d	file:
+YYLTYPE_IS_DECLARED	parser.tab.h	118;"	d
+YYLTYPE_IS_TRIVIAL	parser.tab.c	183;"	d	file:
+YYLTYPE_IS_TRIVIAL	parser.tab.h	119;"	d
+YYLVAL	lex.yy.c	/^} YYLVAL;$/;"	t	typeref:union:__anon3	file:
+YYMALLOC	parser.tab.c	359;"	d	file:
+YYMAXDEPTH	parser.tab.c	975;"	d	file:
+YYMAXUTOK	parser.tab.c	453;"	d	file:
+YYNNTS	parser.tab.c	444;"	d	file:
+YYNRULES	parser.tab.c	446;"	d	file:
+YYNSTATES	parser.tab.c	448;"	d	file:
+YYNTOKENS	parser.tab.c	442;"	d	file:
+YYPACT_NINF	parser.tab.c	538;"	d	file:
+YYPOPSTACK	parser.tab.c	1292;"	d	file:
+YYPULL	parser.tab.c	59;"	d	file:
+YYPURE	parser.tab.c	53;"	d	file:
+YYPUSH	parser.tab.c	56;"	d	file:
+YYRECOVERING	parser.tab.c	739;"	d	file:
+YYRHSLOC	parser.tab.c	787;"	d	file:
+YYSIZE_MAXIMUM	parser.tab.c	238;"	d	file:
+YYSIZE_T	parser.tab.c	227;"	d	file:
+YYSIZE_T	parser.tab.c	229;"	d	file:
+YYSIZE_T	parser.tab.c	232;"	d	file:
+YYSIZE_T	parser.tab.c	234;"	d	file:
+YYSKELETON_NAME	parser.tab.c	50;"	d	file:
+YYSTACK_ALLOC	parser.tab.c	313;"	d	file:
+YYSTACK_ALLOC	parser.tab.c	317;"	d	file:
+YYSTACK_ALLOC	parser.tab.c	322;"	d	file:
+YYSTACK_ALLOC	parser.tab.c	345;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	parser.tab.c	342;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	parser.tab.c	348;"	d	file:
+YYSTACK_BYTES	parser.tab.c	392;"	d	file:
+YYSTACK_FREE	parser.tab.c	336;"	d	file:
+YYSTACK_FREE	parser.tab.c	346;"	d	file:
+YYSTACK_GAP_MAXIMUM	parser.tab.c	388;"	d	file:
+YYSTACK_RELOCATE	parser.tab.c	403;"	d	file:
+YYSTATE	lex.yy.c	132;"	d	file:
+YYSTYPE	lex.yy.c	565;"	d	file:
+YYSTYPE	parser.tab.c	/^typedef union YYSTYPE YYSTYPE;$/;"	t	typeref:union:YYSTYPE	file:
+YYSTYPE	parser.tab.c	/^union YYSTYPE$/;"	u	file:
+YYSTYPE	parser.tab.h	/^typedef union YYSTYPE YYSTYPE;$/;"	t	typeref:union:YYSTYPE
+YYSTYPE	parser.tab.h	/^union YYSTYPE$/;"	u
+YYSTYPE_IS_DECLARED	parser.tab.c	169;"	d	file:
+YYSTYPE_IS_DECLARED	parser.tab.h	105;"	d
+YYSTYPE_IS_TRIVIAL	parser.tab.c	168;"	d	file:
+YYSTYPE_IS_TRIVIAL	parser.tab.h	104;"	d
+YYTABLES_NAME	lex.yy.c	2077;"	d	file:
+YYTABLE_NINF	parser.tab.c	543;"	d	file:
+YYTERROR	parser.tab.c	759;"	d	file:
+YYTOKENTYPE	parser.tab.c	109;"	d	file:
+YYTOKENTYPE	parser.tab.h	45;"	d
+YYTRANSLATE	parser.tab.c	455;"	d	file:
+YYUNDEFTOK	parser.tab.c	452;"	d	file:
+YYUSE	parser.tab.c	281;"	d	file:
+YYUSE	parser.tab.c	283;"	d	file:
+YY_	parser.tab.c	244;"	d	file:
+YY_	parser.tab.c	248;"	d	file:
+YY_ATTRIBUTE	parser.tab.c	256;"	d	file:
+YY_ATTRIBUTE	parser.tab.c	258;"	d	file:
+YY_ATTRIBUTE_PURE	parser.tab.c	263;"	d	file:
+YY_ATTRIBUTE_UNUSED	parser.tab.c	267;"	d	file:
+YY_AT_BOL	lex.yy.c	359;"	d	file:
+YY_BREAK	lex.yy.c	744;"	d	file:
+YY_BUFFER_EOF_PENDING	lex.yy.c	275;"	d	file:
+YY_BUFFER_NEW	lex.yy.c	263;"	d	file:
+YY_BUFFER_NORMAL	lex.yy.c	264;"	d	file:
+YY_BUFFER_STATE	lex.yy.c	/^typedef struct yy_buffer_state *YY_BUFFER_STATE;$/;"	t	typeref:struct:yy_buffer_state	file:
+YY_BUF_SIZE	lex.yy.c	149;"	d	file:
+YY_BUF_SIZE	lex.yy.c	151;"	d	file:
+YY_CHAR	lex.yy.c	/^typedef unsigned char YY_CHAR;$/;"	t	file:
+YY_CURRENT_BUFFER	lex.yy.c	291;"	d	file:
+YY_CURRENT_BUFFER_LVALUE	lex.yy.c	298;"	d	file:
+YY_DECL	lex.yy.c	732;"	d	file:
+YY_DECL_IS_OURS	lex.yy.c	728;"	d	file:
+YY_DO_BEFORE_ACTION	lex.yy.c	390;"	d	file:
+YY_END_OF_BUFFER	lex.yy.c	398;"	d	file:
+YY_END_OF_BUFFER_CHAR	lex.yy.c	140;"	d	file:
+YY_EXIT_FAILURE	lex.yy.c	1870;"	d	file:
+YY_EXTRA_TYPE	lex.yy.c	580;"	d	file:
+YY_FATAL_ERROR	lex.yy.c	719;"	d	file:
+YY_FLEX_MAJOR_VERSION	lex.yy.c	9;"	d	file:
+YY_FLEX_MINOR_VERSION	lex.yy.c	10;"	d	file:
+YY_FLEX_SUBMINOR_VERSION	lex.yy.c	11;"	d	file:
+YY_FLUSH_BUFFER	lex.yy.c	327;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_BEGIN	parser.tab.c	288;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_BEGIN	parser.tab.c	298;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_END	parser.tab.c	292;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_END	parser.tab.c	299;"	d	file:
+YY_INITIAL_VALUE	parser.tab.c	295;"	d	file:
+YY_INITIAL_VALUE	parser.tab.c	302;"	d	file:
+YY_INPUT	lex.yy.c	672;"	d	file:
+YY_INT_ALIGNED	lex.yy.c	4;"	d	file:
+YY_LESS_LINENO	lex.yy.c	184;"	d	file:
+YY_LINENO_REWIND_TO	lex.yy.c	191;"	d	file:
+YY_LOCATION_PRINT	parser.tab.c	840;"	d	file:
+YY_LOCATION_PRINT	parser.tab.c	844;"	d	file:
+YY_MORE_ADJ	lex.yy.c	547;"	d	file:
+YY_NEW_FILE	lex.yy.c	138;"	d	file:
+YY_NULL	lex.yy.c	112;"	d	file:
+YY_NULLPTR	parser.tab.c	81;"	d	file:
+YY_NULLPTR	parser.tab.c	83;"	d	file:
+YY_NUM_RULES	lex.yy.c	397;"	d	file:
+YY_READ_BUF_SIZE	lex.yy.c	654;"	d	file:
+YY_READ_BUF_SIZE	lex.yy.c	656;"	d	file:
+YY_REDUCE_PRINT	parser.tab.c	945;"	d	file:
+YY_REDUCE_PRINT	parser.tab.c	958;"	d	file:
+YY_RESTORE_YY_MORE_OFFSET	lex.yy.c	548;"	d	file:
+YY_RULE_SETUP	lex.yy.c	747;"	d	file:
+YY_SC_TO_UI	lex.yy.c	119;"	d	file:
+YY_STACK_PRINT	parser.tab.c	914;"	d	file:
+YY_STACK_PRINT	parser.tab.c	957;"	d	file:
+YY_START	lex.yy.c	131;"	d	file:
+YY_START_STACK_INCR	lex.yy.c	714;"	d	file:
+YY_STATE_BUF_SIZE	lex.yy.c	157;"	d	file:
+YY_STATE_EOF	lex.yy.c	135;"	d	file:
+YY_STRUCT_YY_BUFFER_STATE	lex.yy.c	216;"	d	file:
+YY_SYMBOL_PRINT	parser.tab.c	849;"	d	file:
+YY_SYMBOL_PRINT	parser.tab.c	956;"	d	file:
+YY_TYPEDEF_YY_BUFFER_STATE	lex.yy.c	160;"	d	file:
+YY_TYPEDEF_YY_SIZE_T	lex.yy.c	165;"	d	file:
+YY_USER_ACTION	lex.yy.c	556;"	d	file:
+YY_USER_ACTION	lex.yy.c	739;"	d	file:
+YY_USE_CONST	lex.yy.c	100;"	d	file:
+YY_USE_CONST	lex.yy.c	93;"	d	file:
+YY_YY_PARSER_TAB_H_INCLUDED	parser.tab.c	98;"	d	file:
+YY_YY_PARSER_TAB_H_INCLUDED	parser.tab.h	34;"	d
+_Noreturn	parser.tab.c	273;"	d	file:
+_Noreturn	parser.tab.c	275;"	d	file:
+_Prompt	object.s	/^_Prompt: .asciiz "Enter an integer:  "$/;"	l
+__STDC_LIMIT_MACROS	lex.yy.c	39;"	d	file:
+_ret	object.s	/^_ret: .asciiz "\\n"$/;"	l
+alias	def.h	/^    char alias[10];      \/\/别名，为解决嵌套层次使用，使得每一个数据名称唯一$/;"	m	struct:symbol
+alloca	parser.tab.c	320;"	d	file:
+arryKind	def.h	/^    int arryKind;$/;"	m	struct:type_
+boolExp	semantics.c	/^void boolExp(struct node *T){  \/\/布尔表达式，参考文献[2]p84的思想$/;"	f
+code	def.h	/^    struct codenode *code;         \/\/该结点中间代码链表头指针$/;"	m	struct:node	typeref:struct:node::codenode
+codenode	def.h	/^struct codenode {   \/\/三地址TAC代码结点,采用双向循环链表存放中间语言代码$/;"	s
+const_char	def.h	/^        char    const_char;    \/\/字符常数值，立即数$/;"	m	union:opn::__anon1
+const_float	def.h	/^        float   const_float;    \/\/浮点常数值，立即数$/;"	m	union:opn::__anon1
+const_int	def.h	/^        int     const_int;      \/\/整常数值，立即数$/;"	m	union:opn::__anon1
+dimension	def.h	/^    int dimension;      \/\/数组维度$/;"	m	struct:symbol
+dimension	def.h	/^    int dimension;$/;"	m	struct:node
+display	ast.c	/^void display(struct node *T,int indent)  {\/\/对抽象语法树的先根遍历$/;"	f
+ext_var_list	semantics.c	/^void ext_var_list(struct node *T){  \/\/处理变量列表$/;"	f
+fillSymbolTable	semantics.c	/^int fillSymbolTable(char *name,char *alias,int level,int type,char flag,int offset) {$/;"	f
+fill_Temp	semantics.c	/^int fill_Temp(char *name,int level,int type,char flag,int offset) {$/;"	f
+first_column	parser.tab.c	/^  int first_column;$/;"	m	struct:YYLTYPE	file:
+first_column	parser.tab.h	/^  int first_column;$/;"	m	struct:YYLTYPE
+first_line	parser.tab.c	/^  int first_line;$/;"	m	struct:YYLTYPE	file:
+first_line	parser.tab.h	/^  int first_line;$/;"	m	struct:YYLTYPE
+flag	def.h	/^    char flag;          \/\/符号标记，函数：'F'  变量：'V'   参数：'P'  临时变量：'T'$/;"	m	struct:symbol
+flex_int16_t	lex.yy.c	/^typedef int16_t flex_int16_t;$/;"	t	file:
+flex_int16_t	lex.yy.c	/^typedef short int flex_int16_t;$/;"	t	file:
+flex_int32_t	lex.yy.c	/^typedef int flex_int32_t;$/;"	t	file:
+flex_int32_t	lex.yy.c	/^typedef int32_t flex_int32_t;$/;"	t	file:
+flex_int8_t	lex.yy.c	/^typedef int8_t flex_int8_t;$/;"	t	file:
+flex_int8_t	lex.yy.c	/^typedef signed char flex_int8_t;$/;"	t	file:
+flex_uint16_t	lex.yy.c	/^typedef uint16_t flex_uint16_t;$/;"	t	file:
+flex_uint16_t	lex.yy.c	/^typedef unsigned short int flex_uint16_t;$/;"	t	file:
+flex_uint32_t	lex.yy.c	/^typedef uint32_t flex_uint32_t;$/;"	t	file:
+flex_uint32_t	lex.yy.c	/^typedef unsigned int flex_uint32_t;$/;"	t	file:
+flex_uint8_t	lex.yy.c	/^typedef uint8_t flex_uint8_t;$/;"	t	file:
+flex_uint8_t	lex.yy.c	/^typedef unsigned char flex_uint8_t; $/;"	t	file:
+func_size	semantics.c	/^int func_size;  \/\/1个函数的活动记录大小$/;"	v
+genGoto	semantics.c	/^struct codenode *genGoto(char *label){$/;"	f
+genIR	semantics.c	/^struct codenode *genIR(int op,struct opn opn1,struct opn opn2,struct opn result){$/;"	f
+genLabel	semantics.c	/^struct codenode *genLabel(char *label){$/;"	f
+id	def.h	/^        char    id[33];        \/\/变量或临时变量的别名或标号字符串$/;"	m	union:opn::__anon1
+id	def.h	/^    int id;$/;"	m	struct:structField_
+index	def.h	/^    int index;$/;"	m	struct:symboltable
+itoa	semantics.c	/^ void itoa(int n, char s[], int radix)$/;"	f
+kind	def.h	/^	int kind;               \/\/结点类型$/;"	m	struct:node
+kind	def.h	/^    int kind;                  \/\/标识操作的类型$/;"	m	struct:opn
+kind	def.h	/^    int kind;$/;"	m	struct:type_
+label1	object.s	/^label1:$/;"	l
+last_column	parser.tab.c	/^  int last_column;$/;"	m	struct:YYLTYPE	file:
+last_column	parser.tab.h	/^  int last_column;$/;"	m	struct:YYLTYPE
+last_line	parser.tab.c	/^  int last_line;$/;"	m	struct:YYLTYPE	file:
+last_line	parser.tab.h	/^  int last_line;$/;"	m	struct:YYLTYPE
+level	def.h	/^    int level;                           \/\/层号$/;"	m	struct:node
+level	def.h	/^    int level;                 \/\/变量的层号，0表示是全局变量，数据保存在静态数据区$/;"	m	struct:opn
+level	def.h	/^    int level;   \/\/层号，外部变量名或函数名层号为0，形参名为1，每到1个复合语句层号加1，退出减1$/;"	m	struct:symbol
+main	a.c	/^int main () {$/;"	f
+main	object.s	/^main:$/;"	l
+main	parser.tab.c	/^int main(int argc, char *argv[]){$/;"	f
+match_param	semantics.c	/^int  match_param(int i,struct node *T){$/;"	f
+merge	semantics.c	/^struct codenode *merge(int num,...){$/;"	f
+mknode	ast.c	/^struct node * mknode(int kind,struct node *first,struct node *second, struct node *third,int pos ) {$/;"	f
+name	def.h	/^    char name[33];     \/\/变量或函数名$/;"	m	struct:symbol
+newAlias	semantics.c	/^char *newAlias() {$/;"	f
+newLabel	semantics.c	/^char *newLabel() {$/;"	f
+newTemp	semantics.c	/^char *newTemp(){$/;"	f
+next	def.h	/^        struct codenode  *next,*prior;$/;"	m	struct:codenode	typeref:struct:codenode::codenode
+next	def.h	/^    struct structField_* next;$/;"	m	struct:structField_	typeref:struct:structField_::structField_
+node	def.h	/^struct node {    \/\/以下对结点属性定义没有考虑存储效率，只是简单地列出要用到的一些属性$/;"	s
+node_kind	def.h	/^enum node_kind  {NUM_LIST,ARRAY_VAR_DEF,ForExp,StructDef,StructSpecifier, StructDec,PreIncre, PreDecre, PostIncre, PostDecre, ArrDec, ArrDef, ArrRef, ARRAY, EXT_DEF_LIST,EXT_VAR_DEF,FUNC_DEF,FUNC_DEC,EXT_DEC_LIST,PARAM_LIST,PARAM_DEC, VAR_DEF,DEC_LIST,DEF_LIST,COMP_STM,STM_LIST,EXP_STMT,IF_THEN,IF_THEN_ELSE, FUNC_CALL,ARGS, FUNCTION,PARAM,ARG,CALL,LABEL,GOTO,JLT,JLE,JGT,JGE,EQ,NEQ};$/;"	g
+num	def.h	/^    int num;$/;"	m	struct:node
+objectCode	objectCode.c	/^void objectCode(struct codenode *head)$/;"	f
+offset	def.h	/^    int offset;                    \/\/偏移量$/;"	m	struct:node
+offset	def.h	/^    int offset;                 \/\/变量单元偏移量，或函数在符号表的定义位置序号，目标代码生成时用$/;"	m	struct:opn
+offset	def.h	/^    int offset;        \/\/外部变量和局部变量在其静态数据区或活动记录中的偏移量$/;"	m	struct:symbol
+offset	def.h	/^    int offset;$/;"	m	struct:structField_
+op	def.h	/^        int  op;                          \/\/TAC代码的运算符种类$/;"	m	struct:codenode
+op	def.h	/^    char op[10];$/;"	m	struct:node
+opn	def.h	/^struct opn{$/;"	s
+opn1	def.h	/^        struct opn opn1,opn2,result;          \/\/2个操作数和运算结果$/;"	m	struct:codenode	typeref:struct:codenode::opn
+opn2	def.h	/^        struct opn opn1,opn2,result;          \/\/2个操作数和运算结果$/;"	m	struct:codenode	typeref:struct:codenode::
+paramnum	def.h	/^    int  paramnum;    \/\/形式参数个数$/;"	m	struct:symbol
+place	def.h	/^    int place;                \/\/表示结点对应的变量或运算结果符号表的位置序号$/;"	m	struct:node
+pos	def.h	/^    int pos;                      \/\/语法单位所在位置行号$/;"	m	struct:node
+prior	def.h	/^        struct codenode  *next,*prior;$/;"	m	struct:codenode	typeref:struct:codenode::
+prnIR	semantics.c	/^void prnIR(struct codenode *head){$/;"	f
+prn_symbol	semantics.c	/^void prn_symbol(){ \/\/显示符号表$/;"	f
+program	parser.y	/^program: ExtDefList    { \/*display($1,0);*\/ semantic_Analysis0($1);} \/*显示语法树,语义分析*\/$/;"	l
+ptr	def.h	/^    struct node *ptr[3];                   \/\/子树指针，由kind确定有多少棵子树$/;"	m	struct:node	typeref:struct:node::node
+ptr	lex.yy.c	/^	struct node *ptr;$/;"	m	union:__anon3	typeref:struct:__anon3::node	file:
+ptr	parser.tab.c	/^	struct node *ptr;$/;"	m	union:YYSTYPE	typeref:struct:YYSTYPE::node	file:
+ptr	parser.tab.h	/^	struct node *ptr;$/;"	m	union:YYSTYPE	typeref:struct:YYSTYPE::node
+read	object.s	/^read:$/;"	l
+result	def.h	/^        struct opn opn1,opn2,result;          \/\/2个操作数和运算结果$/;"	m	struct:codenode	typeref:struct:codenode::
+reverse	semantics.c	/^ void reverse(char s[])$/;"	f
+searchSymbolTable	semantics.c	/^int searchSymbolTable(char *name) {$/;"	f
+semantic_Analysis	semantics.c	/^void semantic_Analysis(struct node *T)$/;"	f
+semantic_Analysis0	semantics.c	/^void semantic_Analysis0(struct node *T) {$/;"	f
+semantic_error	semantics.c	/^void semantic_error(int line,char *msg1,char *msg2){$/;"	f
+short	parser.tab.c	198;"	d	file:
+size	def.h	/^    int size[10];$/;"	m	struct:type_
+strcat0	semantics.c	/^char *strcat0(char *s1,char *s2) {$/;"	f
+structField_	def.h	/^typedef struct structField_ {$/;"	s
+symbol	def.h	/^struct symbol {  \/\/这里只列出了一个符号表项的部分属性，没考虑属性间的互斥$/;"	s
+symbolTable	def.h	/^    } symbolTable;$/;"	v	typeref:struct:symboltable
+symbol_scope_TX	def.h	/^    } symbol_scope_TX;$/;"	v	typeref:struct:symbol_scope_begin
+symbol_scope_begin	def.h	/^struct symbol_scope_begin {  \/*当前作用域的符号在符号表的起始位置序号,这是一个栈结构，\/每到达一个复合语句，将符号表的index值进栈，离开复合语句时，取其退栈值修改符号表的index值，完成删除该复合语句中的所有变量和临时变量*\/$/;"	s
+symbols	def.h	/^    struct symbol symbols[MAXLENGTH];$/;"	m	struct:symboltable	typeref:struct:symboltable::symbol
+symboltable	def.h	/^struct symboltable{$/;"	s
+top	def.h	/^    int top;$/;"	m	struct:symbol_scope_begin
+type	def.h	/^    Type type;$/;"	m	struct:structField_
+type	def.h	/^    Type type;$/;"	m	struct:symbol
+type	def.h	/^    int  type;                   \/\/结点对应值的类型$/;"	m	struct:node
+type	def.h	/^    int type;                  \/\/标识操作数的类型$/;"	m	struct:opn
+type_	def.h	/^typedef struct type_ {$/;"	s
+type_char	def.h	/^		  char type_char;$/;"	m	union:node::__anon2
+type_char	lex.yy.c	/^	int type_char;$/;"	m	union:__anon3	file:
+type_char	parser.tab.c	/^	char   type_char;$/;"	m	union:YYSTYPE	file:
+type_char	parser.tab.h	/^	char   type_char;$/;"	m	union:YYSTYPE
+type_float	def.h	/^		  float type_float;              \/\/由浮点常数生成的叶结点$/;"	m	union:node::__anon2
+type_float	lex.yy.c	/^	int type_float;$/;"	m	union:__anon3	file:
+type_float	parser.tab.c	/^	float  type_float;$/;"	m	union:YYSTYPE	file:
+type_float	parser.tab.h	/^	float  type_float;$/;"	m	union:YYSTYPE
+type_id	def.h	/^		  char type_id[33];             \/\/由标识符生成的叶结点$/;"	m	union:node::__anon2
+type_id	lex.yy.c	/^	char type_id[32];$/;"	m	union:__anon3	file:
+type_id	parser.tab.c	/^	char   type_id[32];$/;"	m	union:YYSTYPE	file:
+type_id	parser.tab.h	/^	char   type_id[32];$/;"	m	union:YYSTYPE
+type_int	def.h	/^		  int type_int;                 \/\/由整常数生成的叶结点$/;"	m	union:node::__anon2
+type_int	lex.yy.c	/^	int type_int;$/;"	m	union:__anon3	file:
+type_int	parser.tab.c	/^	int    type_int;$/;"	m	union:YYSTYPE	file:
+type_int	parser.tab.h	/^	int    type_int;$/;"	m	union:YYSTYPE
+unput	lex.yy.c	213;"	d	file:
+width	def.h	/^    int width;                    \/\/占数据字节数$/;"	m	struct:node
+write	object.s	/^write:$/;"	l
+yy_accept	lex.yy.c	/^static yyconst flex_int16_t yy_accept[88] =$/;"	v	file:
+yy_at_bol	lex.yy.c	/^	int yy_at_bol;$/;"	m	struct:yy_buffer_state	file:
+yy_base	lex.yy.c	/^static yyconst flex_uint16_t yy_base[93] =$/;"	v	file:
+yy_bs_column	lex.yy.c	/^    int yy_bs_column; \/**< The column count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_bs_lineno	lex.yy.c	/^    int yy_bs_lineno; \/**< The line count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_pos	lex.yy.c	/^	char *yy_buf_pos;		\/* current position in input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_size	lex.yy.c	/^	yy_size_t yy_buf_size;$/;"	m	struct:yy_buffer_state	file:
+yy_buffer_stack	lex.yy.c	/^static YY_BUFFER_STATE * yy_buffer_stack = 0; \/**< Stack as an array. *\/$/;"	v	file:
+yy_buffer_stack_max	lex.yy.c	/^static size_t yy_buffer_stack_max = 0; \/**< capacity of stack. *\/$/;"	v	file:
+yy_buffer_stack_top	lex.yy.c	/^static size_t yy_buffer_stack_top = 0; \/**< index of top of stack. *\/$/;"	v	file:
+yy_buffer_state	lex.yy.c	/^struct yy_buffer_state$/;"	s	file:
+yy_buffer_status	lex.yy.c	/^	int yy_buffer_status;$/;"	m	struct:yy_buffer_state	file:
+yy_c_buf_p	lex.yy.c	/^static char *yy_c_buf_p = (char *) 0;$/;"	v	file:
+yy_ch_buf	lex.yy.c	/^	char *yy_ch_buf;		\/* input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_chk	lex.yy.c	/^static yyconst flex_int16_t yy_chk[150] =$/;"	v	file:
+yy_create_buffer	lex.yy.c	/^    YY_BUFFER_STATE yy_create_buffer  (FILE * file, int  size )$/;"	f
+yy_def	lex.yy.c	/^static yyconst flex_int16_t yy_def[93] =$/;"	v	file:
+yy_delete_buffer	lex.yy.c	/^    void yy_delete_buffer (YY_BUFFER_STATE  b )$/;"	f
+yy_did_buffer_switch_on_eof	lex.yy.c	/^static int yy_did_buffer_switch_on_eof;$/;"	v	file:
+yy_ec	lex.yy.c	/^static yyconst YY_CHAR yy_ec[256] =$/;"	v	file:
+yy_fatal_error	lex.yy.c	/^static void yy_fatal_error (yyconst char* msg )$/;"	f	file:
+yy_fill_buffer	lex.yy.c	/^	int yy_fill_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_flex_debug	lex.yy.c	/^int yy_flex_debug = 0;$/;"	v
+yy_flex_strlen	lex.yy.c	/^static int yy_flex_strlen (yyconst char * s )$/;"	f	file:
+yy_flex_strncpy	lex.yy.c	/^static void yy_flex_strncpy (char* s1, yyconst char * s2, int n )$/;"	f	file:
+yy_flush_buffer	lex.yy.c	/^    void yy_flush_buffer (YY_BUFFER_STATE  b )$/;"	f
+yy_get_next_buffer	lex.yy.c	/^static int yy_get_next_buffer (void)$/;"	f	file:
+yy_get_previous_state	lex.yy.c	/^    static yy_state_type yy_get_previous_state (void)$/;"	f	file:
+yy_hold_char	lex.yy.c	/^static char yy_hold_char;$/;"	v	file:
+yy_init	lex.yy.c	/^static int yy_init = 0;		\/* whether we need to initialize *\/$/;"	v	file:
+yy_init_buffer	lex.yy.c	/^    static void yy_init_buffer  (YY_BUFFER_STATE  b, FILE * file )$/;"	f	file:
+yy_init_globals	lex.yy.c	/^static int yy_init_globals (void)$/;"	f	file:
+yy_input_file	lex.yy.c	/^	FILE *yy_input_file;$/;"	m	struct:yy_buffer_state	file:
+yy_is_interactive	lex.yy.c	/^	int yy_is_interactive;$/;"	m	struct:yy_buffer_state	file:
+yy_is_our_buffer	lex.yy.c	/^	int yy_is_our_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_last_accepting_cpos	lex.yy.c	/^static char *yy_last_accepting_cpos;$/;"	v	file:
+yy_last_accepting_state	lex.yy.c	/^static yy_state_type yy_last_accepting_state;$/;"	v	file:
+yy_load_buffer_state	lex.yy.c	/^static void yy_load_buffer_state  (void)$/;"	f	file:
+yy_location_print_	parser.tab.c	/^yy_location_print_ (FILE *yyo, YYLTYPE const * const yylocp)$/;"	f	file:
+yy_meta	lex.yy.c	/^static yyconst YY_CHAR yy_meta[40] =$/;"	v	file:
+yy_n_chars	lex.yy.c	/^	int yy_n_chars;$/;"	m	struct:yy_buffer_state	file:
+yy_n_chars	lex.yy.c	/^static int yy_n_chars;		\/* number of characters read into yy_ch_buf *\/$/;"	v	file:
+yy_new_buffer	lex.yy.c	337;"	d	file:
+yy_nxt	lex.yy.c	/^	flex_int32_t yy_nxt;$/;"	m	struct:yy_trans_info	file:
+yy_nxt	lex.yy.c	/^static yyconst flex_uint16_t yy_nxt[150] =$/;"	v	file:
+yy_reduce_print	parser.tab.c	/^yy_reduce_print (yytype_int16 *yyssp, YYSTYPE *yyvsp, YYLTYPE *yylsp, int yyrule)$/;"	f	file:
+yy_rule_can_match_eol	lex.yy.c	/^static yyconst flex_int32_t yy_rule_can_match_eol[43] =$/;"	v	file:
+yy_scan_buffer	lex.yy.c	/^YY_BUFFER_STATE yy_scan_buffer  (char * base, yy_size_t  size )$/;"	f
+yy_scan_bytes	lex.yy.c	/^YY_BUFFER_STATE yy_scan_bytes  (yyconst char * yybytes, yy_size_t  _yybytes_len )$/;"	f
+yy_scan_string	lex.yy.c	/^YY_BUFFER_STATE yy_scan_string (yyconst char * yystr )$/;"	f
+yy_set_bol	lex.yy.c	349;"	d	file:
+yy_set_interactive	lex.yy.c	339;"	d	file:
+yy_size_t	lex.yy.c	/^typedef size_t yy_size_t;$/;"	t	file:
+yy_stack_print	parser.tab.c	/^yy_stack_print (yytype_int16 *yybottom, yytype_int16 *yytop)$/;"	f	file:
+yy_start	lex.yy.c	/^static int yy_start = 0;	\/* start state number *\/$/;"	v	file:
+yy_state_type	lex.yy.c	/^typedef int yy_state_type;$/;"	t	file:
+yy_switch_to_buffer	lex.yy.c	/^    void yy_switch_to_buffer  (YY_BUFFER_STATE  new_buffer )$/;"	f
+yy_symbol_print	parser.tab.c	/^yy_symbol_print (FILE *yyoutput, int yytype, YYSTYPE const * const yyvaluep, YYLTYPE const * const yylocationp)$/;"	f	file:
+yy_symbol_value_print	parser.tab.c	/^yy_symbol_value_print (FILE *yyoutput, int yytype, YYSTYPE const * const yyvaluep, YYLTYPE const * const yylocationp)$/;"	f	file:
+yy_trans_info	lex.yy.c	/^struct yy_trans_info$/;"	s	file:
+yy_try_NUL_trans	lex.yy.c	/^    static yy_state_type yy_try_NUL_trans  (yy_state_type yy_current_state )$/;"	f	file:
+yy_verify	lex.yy.c	/^	flex_int32_t yy_verify;$/;"	m	struct:yy_trans_info	file:
+yyalloc	lex.yy.c	/^void *yyalloc (yy_size_t  size )$/;"	f
+yyalloc	parser.tab.c	/^union yyalloc$/;"	u	file:
+yychar	parser.tab.c	/^int yychar;$/;"	v
+yycheck	parser.tab.c	/^static const yytype_int16 yycheck[] =$/;"	v	file:
+yyclearin	parser.tab.c	730;"	d	file:
+yycolumn	lex.yy.c	/^int yycolumn=1;$/;"	v
+yyconst	lex.yy.c	106;"	d	file:
+yyconst	lex.yy.c	108;"	d	file:
+yydebug	parser.tab.c	/^int yydebug;$/;"	v
+yydefact	parser.tab.c	/^static const yytype_uint8 yydefact[] =$/;"	v	file:
+yydefgoto	parser.tab.c	/^static const yytype_int8 yydefgoto[] =$/;"	v	file:
+yydestruct	parser.tab.c	/^yydestruct (const char *yymsg, int yytype, YYSTYPE *yyvaluep, YYLTYPE *yylocationp)$/;"	f	file:
+yyensure_buffer_stack	lex.yy.c	/^static void yyensure_buffer_stack (void)$/;"	f	file:
+yyerrok	parser.tab.c	729;"	d	file:
+yyerror	parser.tab.c	/^void yyerror(const char* fmt, ...)$/;"	f
+yyfree	lex.yy.c	/^void yyfree (void * ptr )$/;"	f
+yyget_debug	lex.yy.c	/^int yyget_debug  (void)$/;"	f
+yyget_in	lex.yy.c	/^FILE *yyget_in  (void)$/;"	f
+yyget_leng	lex.yy.c	/^yy_size_t yyget_leng  (void)$/;"	f
+yyget_lineno	lex.yy.c	/^int yyget_lineno  (void)$/;"	f
+yyget_out	lex.yy.c	/^FILE *yyget_out  (void)$/;"	f
+yyget_text	lex.yy.c	/^char *yyget_text  (void)$/;"	f
+yyin	lex.yy.c	/^FILE *yyin = (FILE *) 0, *yyout = (FILE *) 0;$/;"	v
+yyinput	lex.yy.c	/^    static int yyinput (void)$/;"	f	file:
+yyleng	lex.yy.c	/^yy_size_t yyleng;$/;"	v
+yyless	lex.yy.c	1881;"	d	file:
+yyless	lex.yy.c	1882;"	d	file:
+yyless	lex.yy.c	200;"	d	file:
+yylex_destroy	lex.yy.c	/^int yylex_destroy  (void)$/;"	f
+yylineno	lex.yy.c	/^int yylineno = 1;$/;"	v
+yylloc	parser.tab.c	/^YYLTYPE yylloc$/;"	v
+yyls_alloc	parser.tab.c	/^  YYLTYPE yyls_alloc;$/;"	m	union:yyalloc	file:
+yylval	parser.tab.c	/^YYSTYPE yylval;$/;"	v
+yymore	lex.yy.c	546;"	d	file:
+yynerrs	parser.tab.c	/^int yynerrs;$/;"	v
+yyout	lex.yy.c	/^FILE *yyin = (FILE *) 0, *yyout = (FILE *) 0;$/;"	v
+yypact	parser.tab.c	/^static const yytype_int16 yypact[] =$/;"	v	file:
+yypact_value_is_default	parser.tab.c	540;"	d	file:
+yyparse	parser.tab.c	/^yyparse (void)$/;"	f
+yypgoto	parser.tab.c	/^static const yytype_int16 yypgoto[] =$/;"	v	file:
+yypop_buffer_state	lex.yy.c	/^void yypop_buffer_state (void)$/;"	f
+yypush_buffer_state	lex.yy.c	/^void yypush_buffer_state (YY_BUFFER_STATE new_buffer )$/;"	f
+yyr1	parser.tab.c	/^static const yytype_uint8 yyr1[] =$/;"	v	file:
+yyr2	parser.tab.c	/^static const yytype_uint8 yyr2[] =$/;"	v	file:
+yyrealloc	lex.yy.c	/^void *yyrealloc  (void * ptr, yy_size_t  size )$/;"	f
+yyrestart	lex.yy.c	/^    void yyrestart  (FILE * input_file )$/;"	f
+yyrline	parser.tab.c	/^static const yytype_uint8 yyrline[] =$/;"	v	file:
+yyset_debug	lex.yy.c	/^void yyset_debug (int  _bdebug )$/;"	f
+yyset_in	lex.yy.c	/^void yyset_in (FILE *  _in_str )$/;"	f
+yyset_lineno	lex.yy.c	/^void yyset_lineno (int  _line_number )$/;"	f
+yyset_out	lex.yy.c	/^void yyset_out (FILE *  _out_str )$/;"	f
+yyss_alloc	parser.tab.c	/^  yytype_int16 yyss_alloc;$/;"	m	union:yyalloc	file:
+yystos	parser.tab.c	/^static const yytype_uint8 yystos[] =$/;"	v	file:
+yystpcpy	parser.tab.c	/^yystpcpy (char *yydest, const char *yysrc)$/;"	f	file:
+yystpcpy	parser.tab.c	999;"	d	file:
+yystrlen	parser.tab.c	/^yystrlen (const char *yystr)$/;"	f	file:
+yystrlen	parser.tab.c	983;"	d	file:
+yysyntax_error	parser.tab.c	/^yysyntax_error (YYSIZE_T *yymsg_alloc, char **yymsg,$/;"	f	file:
+yytable	parser.tab.c	/^static const yytype_int16 yytable[] =$/;"	v	file:
+yytable_value_is_error	parser.tab.c	545;"	d	file:
+yyterminate	lex.yy.c	709;"	d	file:
+yytext	lex.yy.c	/^char *yytext;$/;"	v
+yytext_ptr	lex.yy.c	375;"	d	file:
+yytext_ptr	lex.yy.c	377;"	d	file:
+yytname	parser.tab.c	/^static const char *const yytname[] =$/;"	v	file:
+yytnamerr	parser.tab.c	/^yytnamerr (char *yyres, const char *yystr)$/;"	f	file:
+yytokentype	parser.tab.c	/^  enum yytokentype$/;"	g	file:
+yytokentype	parser.tab.h	/^  enum yytokentype$/;"	g
+yytoknum	parser.tab.c	/^static const yytype_uint16 yytoknum[] =$/;"	v	file:
+yytranslate	parser.tab.c	/^static const yytype_uint8 yytranslate[] =$/;"	v	file:
+yytype_int16	parser.tab.c	/^typedef YYTYPE_INT16 yytype_int16;$/;"	t	file:
+yytype_int16	parser.tab.c	/^typedef short int yytype_int16;$/;"	t	file:
+yytype_int8	parser.tab.c	/^typedef YYTYPE_INT8 yytype_int8;$/;"	t	file:
+yytype_int8	parser.tab.c	/^typedef signed char yytype_int8;$/;"	t	file:
+yytype_uint16	parser.tab.c	/^typedef YYTYPE_UINT16 yytype_uint16;$/;"	t	file:
+yytype_uint16	parser.tab.c	/^typedef unsigned short int yytype_uint16;$/;"	t	file:
+yytype_uint8	parser.tab.c	/^typedef YYTYPE_UINT8 yytype_uint8;$/;"	t	file:
+yytype_uint8	parser.tab.c	/^typedef unsigned char yytype_uint8;$/;"	t	file:
+yyunput	lex.yy.c	/^    static void yyunput (int c, char * yy_bp )$/;"	f	file:
+yyvs_alloc	parser.tab.c	/^  YYSTYPE yyvs_alloc;$/;"	m	union:yyalloc	file:
+yywrap	lex.yy.c	/^int yywrap()$/;"	f
